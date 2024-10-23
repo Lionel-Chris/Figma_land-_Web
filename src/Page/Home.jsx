@@ -1,13 +1,15 @@
 import React from 'react';
-import Hero from '../Inner page/Hero';
-import Features from  '../Inner page/Features';
+import Hero from '../InnerPage/Hero';
+import Features from  '../InnerPage/Features';
+import Content from '../InnerPage/Content';
 
 const Home = () => {
 
   return (
-    <div>
+   <div>
       <Hero/>
       <Features/>
+      <Content/>
     </div>
   )
 };
